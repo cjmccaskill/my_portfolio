@@ -4,29 +4,27 @@ This schedule will be used to keep track of your progress throughout the week an
 You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
-|Day 6| Present | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 2| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 2| MVP & Bug Fixes | Incomplete
+|Day 3| Final Touches | Incomplete
+|Day 4| Present | Incomplete
 ## Project Description
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 ## Portfolio I want to Emulate
 Search and compare at least 3 profile web sites.  Record your findings in the table below and include some aspect of the site that you would like to incorporate into your own site.
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
-| [denisechandler.com](http://www.denisechandler.com/)%7C landing page animation
-|[jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
+| [denisechandler.com](http://www.denisechandler.com/) | landing page animation |
+| [jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
 | [mattfarley.ca](http://mattfarley.ca/) |  layout of the projects
 ---
 ## Wireframes
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
-Wireframing Resources:
-- [Mockflow](https://mockflow.com/app/#Wireframe)
-- [Figma](https://www.figma.com/)
+- [Mobile](https://res.cloudinary.com/mccaskillmediagroup/image/upload/v1625866679/mobile_wireframe_portfolio.heic)
+- [Desktop](https://res.cloudinary.com/mccaskillmediagroup/image/upload/v1625866713/desktop_wireframe_portfolio.heic)
+
 ## Time/Priority Matrix 
 [Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
@@ -48,25 +46,29 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
+| Navbar | H | 1hr | hr |
+| Hero | H | 3hrs | hr |
+| About me | H | 1hr | hr |  
+| Project cards | H | 2hrs |  hr | 
+| Project section layout | H | 3hrs | hr|
+| Contact form | M | 1.5hrs |  hr | 
 | Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| CSS styling - colors/fonts | L | 1hr |  hr |
+| CSS styling - Hero | M | 1.5hrs | hr |
+| CSS styling - About me | M | 1hr | hr |
+| CSS styling - Projects | M | 3hrs | hr |
+| Social Media Icons | L | 1hr | hr |
+| Total | H | 22hrs | hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Link buttons on Desktop | L | 1hr | hr |
+| Navbar -pin'd top on scroll  | L | 1hr | hr |
+| Projects carousel on M/D | M | 3hr | hr |
+| Navbar image | L | 1hr | hr |
+| Project card hover/focus center | L | 2hr | hr |
+| Animate the nav arrow down | L | 1hr | hr |
+| Total | L | 9hrs| hrs |
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
 ## Code Snippet
