@@ -16,9 +16,9 @@ Use this section to describe your final project and perhaps any links to relevan
 Search and compare at least 3 profile web sites.  Record your findings in the table below and include some aspect of the site that you would like to incorporate into your own site.
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
-| [denisechandler.com](http://www.denisechandler.com/) | landing page animation |
-| [jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
-| [mattfarley.ca](http://mattfarley.ca/) |  layout of the projects
+| [behance.net](https://www.behance.net/gallery/113435205/Interior-Designer-Portfolio-UIUX-Design?tracking_source=search_projects_recommended%7Cportfolio%20design) | hero & design styling |
+| [sakshamkapoor.me](https://sakshamkapoor.me/) | animation in each section |
+| [alexalhamdan.com](https://alexalhamdan.com/) |  layout of the projects (wheel like carousel) & animation |
 ---
 ## Wireframes
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
