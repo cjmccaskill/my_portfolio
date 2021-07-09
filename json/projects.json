@@ -1,0 +1,9 @@
+[
+  {
+    "name": "My Portfolio",
+    "description": "A portfolio about me and the projects that I have worked on.",
+    "github": "https://github.com/cjmccaskill/my_portfolio",
+    "deployed": "https://musing-jackson-48065a.netlify.app/",
+    "image": "http://..."
+  }
+]
