@@ -1,16 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/app.js" defer></script>
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Welcome to my Portfolio</title>
-</head>
-<body>
-    <h1>My Portfolio</h1>
-    
-</body>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>CJ McCaskill | Software Engineer</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-bar-logo">
+          <!-- remove inline style -->
+          <img
+            src="./img/portfolio_logo.png"
+            alt="portfolio logo"
+            style="height: 2.5rem"
+          />
+        </div>
+        <!-- site links pinned to the left side of the page? -->
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="welcome-landing" id="home">
+      <div class="landing-background-img">
+        <img
+          src="./img/computer_desk_setup.jpeg"
+          alt="computer desk in a corner with brick wall behind it and a window"
+        />
+      </div>
+      <p class="welcome-landing-text">Welcome to my <span>Journey</span></p>
+    </section>
+
+    <section class="about-me" id="about">
+        <img src="./img/monkeying_around.jpeg" alt="man climbing a rock cliff">
+      <h2 class="about-title">CJ McCaskill</h2>
+      <h3 class="sub-title">Software Engineer</h3>
+      <p class="about-info">
+        Let me start by introducing myself. I am a cheerful, energetic, and
+        results-oriented Software Engineer who possesses comprehensive
+        experience, successfully meets and exceeds goals within remote team
+        environments. Utilizing strong attention to detail on every line of
+        code, every unit test, and every commit message. Demonstrated history
+        communicating complex ideas to diverse technical and non-technical
+        audiences. A lifelong learner with a growth mindset who is passionate
+        about designing great user experiences and building genuinely great
+        applications. Meticulous self-starter with a strong work ethic who
+        consistently meets deadlines while managing multiple projects.
+      </p>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="project-title">Projects</h2>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="contact-form">
+        <span>Reach Out</span> If you are interested in starting a journey
+        together building something amazing or just to say hello.
+      </p>
+      <form action="">
+        <label class="name" class="name"
+          >Name:
+          <input type="text" id="name" />
+        </label>
+        <label class="email" class="email"
+          >Email:
+          <input type="email" id="email" />
+        </label>
+        <label message="message" class="message"
+          >Message:
+          <textarea name="" id="message"></textarea>
+        </label>
+        <input class="button form-button" type="submit" value="Send Message" />
+      </form>
+    </section>
+
+    <footer>
+      <p>Follow me on my journey</p>
+      <div class="social-icons">
+        <a class="social-icon" href="https://twitter.com/CJMcCaskill"
+          ><img
+            src="https://img.icons8.com/ios/100/000000/twitter--v2.png"
+            alt="Twitter"
+          />
+        </a>
+        <a class="social-icon" href="https://github.com/cjmccaskill">
+          <img
+            src="https://img.icons8.com/ios/100/000000/github--v2.png"
+            alt="Github"
+          />
+        </a>
+        <a class="social-icon" href="https://linkedin.com/in/cjmccaskill"
+          ><img
+            src="https://img.icons8.com/material-outlined/100/000000/linkedin--v2.png"
+            alt="LinkedIn"
+        /></a>
+      </div>
+      <p class="copyright">Copyright 2021 CJ McCaskill</p>
+    </footer>
+  </body>
 </html>
