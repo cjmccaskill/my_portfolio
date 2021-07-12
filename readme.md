@@ -66,14 +66,14 @@ Time frames are also key in the development cycle. You have limited time to code
 #### MVP
 
 | Component                  | Priority | Estimated Time | Actual Time |
-| -------------------------- | :------: | :------------: | :---------: | --- |
+| -------------------------- | :------: | :------------: | :---------: |
 | Navbar                     |    H     |      1hr       |     hr      |
-| Hero                       |    H     |      3hrs      |     hr      |
+| HTML Structure             |    H     |      3hrs      |     hr      |
 | About me                   |    H     |      1hr       |     hr      |
 | Project cards              |    H     |      2hrs      |     hr      |
 | Project section layout     |    H     |      3hrs      |     hr      |
 | Contact form               |    M     |     1.5hrs     |     hr      |
-| Responsive                 |    H     |      3hr       |     hr      | hr  |
+| Responsive                 |    H     |      3hr       |     hr      |
 | CSS styling - colors/fonts |    L     |      1hr       |     hr      |
 | CSS styling - Hero         |    M     |     1.5hrs     |     hr      |
 | CSS styling - About me     |    M     |      1hr       |     hr      |

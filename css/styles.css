@@ -1,0 +1,101 @@
+/* Global styles */
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", helvetica, arial, sans;
+  min-height: 100vh;
+}
+.content-container {
+  display: flex;
+  flex: 1 1 auto;
+  padding-top: 10vh;
+  width: 100%;
+}
+
+footer {
+  position: fixed bottom;
+}
+
+/* Header Styles */
+.header {
+  background-color: #303034;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+}
+.header-nav {
+  float: right;
+  padding: 5.5vh 60px 0 0;
+}
+.header-nav > li {
+  display: inline-block;
+  margin-left: 1em;
+}
+.header-nav > li ~ li {
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  padding-left: 1em;
+}
+.header-nav a {
+  color: #fff;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav-links a:hover,
+.nav-links a:active {
+  color: #ed6e2f;
+}
+.nav-bar-logo {
+  box-sizing: border-box;
+  display: block;
+  height: 10vh;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  width: 10vh;
+}
+.nav-bar-logo img {
+  height: 90%;
+  width: auto;
+}
+
+/* Hero Styles */
+.welcome-landing {
+  box-sizing: border-box;
+  background-position: center top;
+  height: 90vh;
+}
+.landing-background-img img {
+  width: 100%;
+  background-size: cover;
+}
+/* About */
+
+/* Contact */
+
+/* Footer */
+.footer {
+  background-color: #303034;
+  padding: 2.5vh 0;
+  text-align: center;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-links a:hover,
+.social-links a:active {
+  color: #fefce6;
+}
+
+.bi {
+  color: #ed6e2f;
+}
+
+.footer > p {
+  color: #fefce6;
+}
