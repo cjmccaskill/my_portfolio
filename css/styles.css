@@ -62,7 +62,7 @@ footer {
 .welcome-landing {
   box-sizing: border-box;
   background-position: center top;
-  height: 90vh;
+  /* height: 90vh; */
 }
 
 .landing-background {
@@ -72,7 +72,6 @@ footer {
 
 .landing-background img {
   width: 100%;
-  background-size: cover;
 }
 
 .welcome-landing-text {
@@ -92,12 +91,13 @@ footer {
   font-size: 1.5em;
 }
 
-/* About */
-
+.about img {
+  width: 100%;
+}
 
 /* Projects */
-#projects > div > img {
-  width: 80%;
+#projects div > img {
+  width: 100%;
   height: 75%;
   object-fit: contain;
 }
