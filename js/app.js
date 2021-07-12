@@ -9,7 +9,9 @@ $.ajax("./json/projects.json")
       const $div = $("<div>");
       $div.html(`<h3 class ='project-name'>${project.name}</h3>
         <p class ='project-info'>${project.description}</p>
-        <img src ='${project.image}'/>`);
+        <img src = '${project.image}'/>
+        <a class ='project-github'>${project.github}</a>
+        <a class ='project-deployed'>${project.deployed}</a>`);
 
       $("#projects").append($div); //append the div to the projects section
     });
