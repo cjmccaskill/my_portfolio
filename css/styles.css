@@ -6,9 +6,7 @@ body {
   min-height: 100vh;
 }
 .content-container {
-  display: flex;
   flex: 1 1 auto;
-  padding-top: 10vh;
   width: 100%;
 }
 
@@ -18,9 +16,10 @@ footer {
 
 /* Header Styles */
 .header {
+  display: flex;
   background-color: #303034;
   color: #fff;
-  position: fixed;
+  position: fixed top;
   width: 100%;
   z-index: 20;
 }
@@ -52,11 +51,10 @@ footer {
   height: 10vh;
   padding: 10px;
   position: relative;
-  text-align: center;
   width: 10vh;
 }
 .nav-bar-logo img {
-  height: 90%;
+  height: 100%;
   width: auto;
 }
 
@@ -66,11 +64,42 @@ footer {
   background-position: center top;
   height: 90vh;
 }
-.landing-background-img img {
+
+.landing-background {
+  position: relative;
+  text-align: center;
+}
+
+.landing-background img {
   width: 100%;
   background-size: cover;
 }
+
+.welcome-landing-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: #ed6e2f;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.welcome-landing-text span {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
 /* About */
+
+/* Projects */
+#projects > div > img {
+  width: 80%;
+  height: 75%;
+  object-fit: contain;
+}
 
 /* Contact */
 
@@ -94,6 +123,8 @@ footer {
 
 .bi {
   color: #ed6e2f;
+  width: 25px;
+  height: 25px;
 }
 
 .footer > p {

@@ -4,6 +4,13 @@
     "description": "A portfolio about me and the projects that I have worked on.",
     "github": "https://github.com/cjmccaskill/my_portfolio",
     "deployed": "https://musing-jackson-48065a.netlify.app/",
-    "image": "http://..."
+    "image": "./img/portfolio_logo.png"
+  },
+  {
+    "name": "Code Dangerously",
+    "description": "A website that I built while reading through the Learn Enough to Be Dangerous books.",
+    "github": "https://github.com/cjmccaskill/cjmccaskill.github.io",
+    "deployed": "https://cjmccaskill.github.io/",
+    "image": "./img/shark.jpeg"
   }
 ]
