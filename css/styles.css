@@ -60,6 +60,26 @@ footer {
   width: auto;
 }
 
+.nav-menu {
+  background-color: transparent;
+  color: #ed6e2f;
+  border: none;
+  border-radius: 0.2em;
+  height: 3.5em;
+  /* margin: 0.6em; */
+  padding: 1.2em;
+}
+
+button > svg .bi {
+  height: 40px;
+  width: 40px;
+}
+
+button:hover {
+  background-color: #fefce6;
+  border: 1px solid #ed6e2f;
+}
+
 /* HERO STYLES */
 .welcome-landing {
   box-sizing: border-box;
@@ -77,6 +97,8 @@ footer {
 }
 
 .welcome-landing-text {
+  font-size: 1.2em;
+  font-weight: 100;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -131,9 +153,10 @@ footer {
 
 .about-info {
   grid-column: about / about;
-  /* text-align: justify; */
+  text-align: justify;
   /* border-bottom: 2px solid rgba(48, 48, 52, 0.1); */
   padding-bottom: 0.5em;
+  line-height: 1.5em;
 }
 
 /* PROJECT STYLES */
