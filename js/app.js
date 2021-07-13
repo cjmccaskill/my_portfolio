@@ -1,6 +1,33 @@
-const $projects = $("#projects");
+// Nav-bar button toggle
+// const navToggle = document.querySelector(".nav-button-toggle");
+
+// navToggle.addEventListener("click", () => {
+//   document.body.classList.toggle("nav-is-open");
+// });
+
+const $button = document.querySelector(".nav-button-toggle"),
+  $navmenu = $("#nav-menu"),
+  visible = true;
+
+button.addEventListener("click", () => {
+  // document.body.classList.toggle("nav-is-open");
+  if (visible) {
+    $navmenu.slideUp("fast", () => {
+      $navmenu.addClass("hide").slideDown(0);
+    });
+  } else {
+    $navmenu.slideUp(0, () => {
+      $navmenu.removeClass("hide").slideDown("fast");
+    });
+  }
+  visible = !visible;
+});
+
+
 
 // Asynchronous Request for the Data in our JSON
+const $projects = $("#projects");
+
 $.ajax("./json/projects.json")
   // when the data arrives, do something with it
   .then((data) => {
