@@ -1,4 +1,4 @@
-/* Global styles */
+/* GLOBAL STYLES */
 body {
   display: flex;
   flex-direction: column;
@@ -6,26 +6,29 @@ body {
   min-height: 100vh;
 }
 .content-container {
-  flex: 1 1 auto;
   width: 100%;
+  margin: 0 auto;
 }
 
 footer {
   position: fixed bottom;
 }
 
-/* Header Styles */
+/* HEADER STYLES */
 .header {
   display: flex;
+  justify-content: space-between;
   background-color: #303034;
-  color: #fff;
-  position: fixed top;
+  color: #fefce6;
+  /* position: fixed top; */
   width: 100%;
   z-index: 20;
 }
 .header-nav {
   float: right;
-  padding: 5.5vh 60px 0 0;
+  padding: 1.3em 1em;
+  margin-top: 1.5em;
+  margin-bottom: 0;
 }
 .header-nav > li {
   display: inline-block;
@@ -36,7 +39,7 @@ footer {
   padding-left: 1em;
 }
 .header-nav a {
-  color: #fff;
+  color: #fefce6;
   font-size: 0.8em;
   text-transform: uppercase;
   text-decoration: none;
@@ -49,7 +52,6 @@ footer {
   box-sizing: border-box;
   display: block;
   height: 10vh;
-  padding: 10px;
   position: relative;
   width: 10vh;
 }
@@ -58,7 +60,7 @@ footer {
   width: auto;
 }
 
-/* Hero Styles */
+/* HERO STYLES */
 .welcome-landing {
   box-sizing: border-box;
   background-position: center top;
@@ -91,20 +93,59 @@ footer {
   font-size: 1.5em;
 }
 
+/* ABOUT STYLES */
+.about {
+  display: grid;
+  grid-template-columns:
+    [about-start] minmax(6em, 1fr)
+    [name-start] minmax(6em, 1fr)
+    [img-end] 2fr
+    [about-end];
+  max-width: 45em;
+  margin: 1.2em auto;
+}
+
 .about img {
+  float: left;
+  margin-right: 1.2em;
+  grid-column: about / img;
+  grid-row: 1 / 2;
   width: 100%;
 }
 
-/* Projects */
+.about-title {
+  font-size: 2.5rem;
+  color: #ed6e2f;
+  background-color: rgba(48, 48, 52, 0.7);
+  grid-column: name / about;
+  grid-row: 1 / 2;
+  align-self: end;
+  margin-bottom: 0.3em;
+}
+
+.about .sub-title {
+  grid-column: about / about;
+  /* border-bottom: 2px solid rgba(48, 48, 52, 0.1); */
+  margin-bottom: 0.5em;
+}
+
+.about-info {
+  grid-column: about / about;
+  /* text-align: justify; */
+  /* border-bottom: 2px solid rgba(48, 48, 52, 0.1); */
+  padding-bottom: 0.5em;
+}
+
+/* PROJECT STYLES */
 #projects div > img {
   width: 100%;
-  height: 75%;
+  height: 100%;
   object-fit: contain;
 }
 
-/* Contact */
+/* CONTACT STYLES */
 
-/* Footer */
+/* FOOTER STYLES */
 .footer {
   background-color: #303034;
   padding: 2.5vh 0;
@@ -115,6 +156,7 @@ footer {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
+  padding: 0;
 }
 
 .social-links a:hover,
