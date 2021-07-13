@@ -43,12 +43,14 @@ footer {
 }
 
 #nav-menu.nav-is-open {
-  display: flex;
   height: 100%;
-  transform: translate(-145px, 0);
+  transform: translate(-135px, 0);
   text-align: center;
   cursor: pointer;
-  /* padding-right: 1em; */
+}
+
+.header-nav li {
+  text-align: center;
 }
 
 .header-nav a {
@@ -56,17 +58,19 @@ footer {
   font-size: 0.8em;
   text-transform: uppercase;
   text-decoration: none;
+  padding: 0.8em;
 }
 .nav-links a:hover,
 .nav-links a:active {
   color: #ed6e2f;
 }
+
 .nav-bar-logo {
   box-sizing: border-box;
   display: block;
-  height: 10vh;
+  height: 8vh;
   position: relative;
-  width: 10vh;
+  width: 8vw;
 }
 .nav-bar-logo img {
   height: 100%;
@@ -155,30 +159,92 @@ button:hover {
   grid-row: 1 / 2;
   align-self: end;
   margin-bottom: 0.3em;
+  border: 1px solid opacity 0;
+  border-radius: 3px;
 }
 
 .about .sub-title {
   grid-column: about / about;
-  /* border-bottom: 2px solid rgba(48, 48, 52, 0.1); */
   margin-bottom: 0.5em;
 }
 
 .about-info {
   grid-column: about / about;
   text-align: justify;
-  /* border-bottom: 2px solid rgba(48, 48, 52, 0.1); */
   padding-bottom: 0.5em;
   line-height: 1.5em;
 }
 
 /* PROJECT STYLES */
-#projects div > img {
+#projects {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+}
+
+.project-title {
+  font-size: 2.5rem;
+  color: #ed6e2f;
+  background-color: rgba(48, 48, 52, 0.7);
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  padding-left: 0.3em;
+  margin-bottom: 0.3em;
+  border: 1px solid opacity 0;
+  border-radius: 3px;
+}
+
+#projects div img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
 /* CONTACT STYLES */
+.contact {
+  background-color: rgb(211, 211, 211, 0.2);
+  display: grid;
+  grid-template-columns: minmax(10px, 1fr) minmax(10px, 3fr);
+  grid-template-rows: min-content min-content 1fr min-content;
+  gap: 1px;
+  box-sizing: border-box;
+  text-align: start;
+  padding: 1.3em;
+  border: 1px solid opacity 0;
+  border-radius: 3px;
+  margin-top: 1em;
+}
+
+.contact-form {
+  font-size: 1em;
+
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  padding-left: 0.3em;
+  margin-bottom: 0.3em;
+  text-align: justify;
+}
+
+.contact-form span {
+  color: #ed6e2f;
+  font-size: 1.1em;
+  text-shadow: 1px 1px #303034;
+}
+
+.contact .name {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.contact .email {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.contact .message {
+  grid-column: 1 / -1;
+  grid-row: 4 / 5;
+}
 
 /* FOOTER STYLES */
 .footer {
