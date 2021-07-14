@@ -98,7 +98,7 @@ footer {
   padding: auto;
 }
 
-.nav-button-toggle button:hover {
+.nav-button:hover {
   background-color: #fefce6;
   border: 2px solid #ed6e2f;
   border-radius: 0.2em;
@@ -200,8 +200,9 @@ footer {
   color: #fefce6;
   background-color: rgba(48, 48, 52, 0.9);
   padding: 0.5em;
-  border-radius: 3px;
+  border-radius: 3px 3px 0 0;
   border: 2px solid #ed6e2f;
+  border-bottom: none;
   margin: 0;
 }
 
@@ -210,7 +211,7 @@ footer {
   background-color: rgba(48, 48, 52, 0.9);
   padding: 0.5em;
   padding-top: 0.3em;
-  border-radius: 3px;
+  border-radius: 0 0 3px 3px;
   border: 2px solid #fefce6;
   border-top: none;
   box-shadow: 1px 2px 2px #fefce1;
