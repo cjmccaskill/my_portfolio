@@ -24,19 +24,20 @@
   </head>
   <body>
     <header class="header">
-      <a class="nav-bar-logo">
-        <img src="./img/portfolio_logo.png" alt="portfolio logo" />
-      </a>
-      <div class="nav-button-toggle">
-        <nav id="nav-menu">
-          <!-- Site links pinned to the left side of the page? -->
-          <ul class="header-nav nav-links">
-            <li><a href="#">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#projects">projects</a></li>
-            <li><a href="#contact">contact</a></li>
-          </ul>
-        </nav>
+      <div class="nav-bar">
+        <div class="nav-logo">
+          <img src="./img/portfolio_logo.png" alt="portfolio logo" />
+        </div>
+        <div class="nav-container">
+          <nav id="nav-menu">
+            <ul class="header-nav nav-links">
+              <li><a href="#">home</a></li>
+              <li><a href="#about">about</a></li>
+              <li><a href="#projects">projects</a></li>
+              <li><a href="#contact">contact</a></li>
+            </ul>
+          </nav>
+        </div>
         <button class="nav-button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +55,8 @@
         </button>
       </div>
     </header>
-    <div class="content-container">
+
+    <main class="content-container">
       <section class="welcome-landing" id="home">
         <div class="landing-background">
           <img
@@ -90,69 +92,57 @@
 
       <section class="projects" id="projects">
         <h2 class="project-title">Projects</h2>
-        <div class="container">
-          <div id="myCarousel" class="carousel slide">
-            <!-- Indicators -->
-            <!-- <ol class="carousel-indicators">
-              <li class="item1 active"></li>
-              <li class="item2"></li>
-              <li class="item3"></li>
-              <li class="item4"></li>
-            </ol> -->
-
-            <!-- Wrapper for slides -->
-            <!-- <div class="carousel-inner" role="listbox">
-            </div> -->
-            <div class="carousel-inner" role="listbox">
-              
-
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" role="button">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-chevron-double-left"
-                viewBox="0 0 16 16"
-                aria-hidden="true"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
-                />
-                <path
-                  fill-rule="evenodd"
-                  d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
-                /></svg
-              ><span class="sr-only"></span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-chevron-double-right"
-                viewBox="0 0 16 16"
-                aria-hidden="true"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"
-                />
-                <path
-                  fill-rule="evenodd"
-                  d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"
-                /></svg
-              ><span class="sr-only"></span>
-            </a>
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
           </div>
+          <div class="carousel-inner"></div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </section>
 
       <section class="contact">
-        <p class="contact-form-text">
+        <p class="contact-form-statement">
           <span>Reach Out</span> If you are interested in starting a journey
           together building something amazing or just to say hello.
         </p>
@@ -182,7 +172,7 @@
           <p id="contact-status"></p>
         </form>
       </section>
-    </div>
+    </main>
     <footer class="footer">
       <p>Follow me on my journey</p>
       <nav>
