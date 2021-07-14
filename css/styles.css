@@ -44,7 +44,7 @@ footer {
 
 #nav-menu.nav-is-open {
   height: 100%;
-  transform: translate(-135px, 0);
+  transform: translate(-145px, 0);
   text-align: center;
   cursor: pointer;
 }
@@ -141,6 +141,7 @@ button:hover {
     [about-end];
   max-width: 45em;
   margin: 1.2em auto;
+  padding: 0.5em;
 }
 
 .about img {
@@ -171,7 +172,7 @@ button:hover {
 .about-info {
   grid-column: about / about;
   text-align: justify;
-  padding-bottom: 0.5em;
+  padding: 0.5em;
   line-height: 1.5em;
 }
 
@@ -181,40 +182,25 @@ button:hover {
   color: #ed6e2f;
   background-color: rgba(48, 48, 52, 0.7);
   padding-left: 0.3em;
-  margin-bottom: 0.3em;
+  margin: 0.2em;
   border: 1px solid opacity 0;
   border-radius: 3px;
 }
-
-/* #projects div img {
-  width: 100%;
-  height: 100%;
-} */
 
 .project-name {
   color: #ed6e2f;
   background-color: rgba(48, 48, 52, 0.7);
   padding: 0.5em;
+  border-radius: 3px;
 }
 /* Primary styles for the carousel */
-/* .carousel {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.carousel-card {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  float: left;
-  position: absolute;
-} */
 #myCarousel {
   margin-top: 40px;
 }
+
+/* .carousel-inner {
+  display: flex;
+} */
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -224,14 +210,6 @@ button:hover {
   margin: 0 auto;
   padding: 10px;
 }
-
-/* .item {
-  border: 1px solid #eee;
-  width: 320px;
-  height: 190px;
-  margin: 0 auto;
-  padding: 10px;
-} */
 
 /* ////////////////////////// */
 /* FIX CONTACT FORM */

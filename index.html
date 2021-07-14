@@ -93,15 +93,18 @@
         <div class="container">
           <div id="myCarousel" class="carousel slide">
             <!-- Indicators -->
-            <ol class="carousel-indicators">
+            <!-- <ol class="carousel-indicators">
               <li class="item1 active"></li>
               <li class="item2"></li>
               <li class="item3"></li>
               <li class="item4"></li>
-            </ol>
+            </ol> -->
 
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox"></div>
+            <!-- <div class="carousel-inner" role="listbox">
+            </div> -->
+            <div class="carousel-inner" role="listbox">
+              
 
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#myCarousel" role="button">
@@ -112,6 +115,7 @@
                 fill="currentColor"
                 class="bi bi-chevron-double-left"
                 viewBox="0 0 16 16"
+                aria-hidden="true"
               >
                 <path
                   fill-rule="evenodd"
@@ -120,8 +124,8 @@
                 <path
                   fill-rule="evenodd"
                   d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
-                />
-              </svg>
+                /></svg
+              ><span class="sr-only"></span>
             </a>
             <a class="right carousel-control" href="#myCarousel" role="button">
               <svg
@@ -131,6 +135,7 @@
                 fill="currentColor"
                 class="bi bi-chevron-double-right"
                 viewBox="0 0 16 16"
+                aria-hidden="true"
               >
                 <path
                   fill-rule="evenodd"
@@ -139,8 +144,8 @@
                 <path
                   fill-rule="evenodd"
                   d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"
-                />
-              </svg>
+                /></svg
+              ><span class="sr-only"></span>
             </a>
           </div>
         </div>

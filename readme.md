@@ -67,17 +67,17 @@ Time frames are also key in the development cycle. You have limited time to code
 
 | Component                  | Priority | Estimated Time | Actual Time |
 | -------------------------- | :------: | :------------: | :---------: |
-| Navbar                     |    H     |      1hr       |     hr      |
+| Navbar                     |    H     |      1hr       |   1.5hrs    |
 | HTML Structure             |    H     |      3hrs      |    3hrs     |
-| About me                   |    H     |      1hr       |     hr      |
-| Project cards              |    H     |      2hrs      |     hr      |
-| Project section layout     |    H     |      3hrs      |     hr      |
+| About me                   |    H     |      1hr       |     1hr     |
+| Project cards              |    H     |      2hrs      |    2hrs     |
+| Project section layout     |    H     |      3hrs      |    3hrs     |
 | Contact form               |    M     |     1.5hrs     |     1hr     |
 | Responsive                 |    H     |      3hr       |     hr      |
 | CSS styling - colors/fonts |    L     |      1hr       |     hr      |
 | CSS styling - Hero         |    M     |     1.5hrs     |    2hrs     |
-| CSS styling - About me     |    M     |      1hr       |     hr      |
-| CSS styling - Projects     |    M     |      3hrs      |     hr      |
+| CSS styling - About me     |    M     |      1hr       |   1.5hrs    |
+| CSS styling - Projects     |    M     |      3hrs      |     3hr     |
 | Social Media Icons         |    L     |      1hr       |     1hr     |
 | Total                      |    H     |     22hrs      |     hrs     |
 
@@ -85,7 +85,7 @@ Time frames are also key in the development cycle. You have limited time to code
 
 | Component                       | Priority | Estimated Time | Actual Time |
 | ------------------------------- | :------: | :------------: | :---------: |
-| Link buttons on Desktop         |    L     |      1hr       |     hr      |
+| Link buttons on Desktop         |    L     |      1hr       |     1hr     |
 | Navbar -pin'd top on scroll     |    L     |      1hr       |     hr      |
 | Projects carousel on M/D        |    M     |      3hr       |     hr      |
 | Navbar image                    |    L     |      1hr       |     1hr     |

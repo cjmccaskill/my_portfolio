@@ -7,14 +7,14 @@ navToggle.addEventListener("click", () => {
 });
 
 // Asynchronous Request for the Data in our JSON
-const $projects = $("#myCarousel");
+const $projects = $(".carousel");
 
 $.ajax("./json/projects.json")
   // when the data arrives, do something with it
   .then((data) => {
     // loop over the array of the projects
     data.forEach((project, index) => {
-      const $div = $("<div class ='item active'>");
+      const $div = $("<div class ='item'>");
       $div.html(`<h3 class ='project-name'>${project.name}</h3>
         <p class ='project-info'>${project.description}</p>
         <img src = '${project.image}'/>
@@ -45,16 +45,16 @@ $(document).ready(function () {
   $("#myCarousel").carousel();
 
   // Enable Carousel Indicators
-  $(".item1").click(function () {
+  $(".item active").click(function () {
     $("#myCarousel").carousel(0);
   });
-  $(".item2").click(function () {
+  $(".item1").click(function () {
     $("#myCarousel").carousel(1);
   });
-  $(".item3").click(function () {
+  $(".item2").click(function () {
     $("#myCarousel").carousel(2);
   });
-  $(".item4").click(function () {
+  $(".item3").click(function () {
     $("#myCarousel").carousel(3);
   });
 
@@ -66,5 +66,3 @@ $(document).ready(function () {
     $("#myCarousel").carousel("next");
   });
 });
-
-// Event listner for contact form
