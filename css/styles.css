@@ -7,7 +7,7 @@ body {
 }
 .content-container {
   width: 100%;
-  margin: 0 auto;
+  margin: 4.7em auto 0;
 }
 
 footer {
@@ -110,7 +110,6 @@ footer {
 }
 
 .landing-background img {
-  margin-top: 4.7em;
   width: 100%;
 }
 
@@ -197,20 +196,16 @@ footer {
 }
 /* Primary styles for the carousel */
 
-/* ////////////////////////// */
-/* FIX CONTACT FORM */
-/* ////////////////////////// */
-
 /* CONTACT STYLES */
 .contact {
   background-color: rgb(211, 211, 211, 0.2);
   display: flex;
-  /* flex-direction: column; */
-  box-sizing: border-box;
-  text-align: start;
+  /* box-sizing: border-box; */
+  /* text-align: start; */
   padding: 1.3em;
-  border: 1px solid opacity 0;
-  border-radius: 3px;
+  border: 1px solid #303034;
+  border-radius: 4px;
+  box-shadow: 1px 2px 2px #3030347c;
   margin-top: 1em;
 }
 
@@ -218,7 +213,6 @@ footer {
   font-size: 1em;
   padding-left: 0.3em;
   margin-bottom: 0.3em;
-  /* text-align: justify; */
 }
 
 .contact-form-statement span {
@@ -230,7 +224,7 @@ footer {
 /* FOOTER STYLES */
 .footer {
   background-color: #303034;
-  padding: 2.5vh 0;
+  padding: 2em 0;
   text-align: center;
 }
 
@@ -241,12 +235,13 @@ footer {
   padding: 0;
 }
 
-.social-links a:hover,
-.social-links a:active {
+.social-links .bi:hover {
   color: #fefce6;
+  background-color: #ed6e2f;
+  border-radius: 10em;
 }
 
-.bi {
+.social-links .bi {
   color: #ed6e2f;
   width: 25px;
   height: 25px;
