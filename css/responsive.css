@@ -53,13 +53,21 @@
   }
 }
 
-@media  screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   /* Project carousel styles */
-#projects {
-  width: 1000px;
-}
+  #projects {
+    width: 1000px;
+  }
 
   #carouselExampleCaptions img {
-    height: 100%;
+    height: 700px;
+    content: fit;
   }
+
+  .nav-button .bi-list {
+    width: 45px;
+    height: 45px;
+  }
+
+
 }
