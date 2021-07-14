@@ -10,6 +10,10 @@ body {
   margin: 4.7em auto 0;
 }
 
+svg {
+  color: #ed6e2f;
+}
+
 footer {
   position: fixed bottom;
 }
@@ -22,6 +26,7 @@ footer {
   color: #fefce6;
   width: 100%;
   z-index: 20;
+  border-bottom: 1px solid #fefce6;
 }
 
 .nav-bar {
@@ -195,7 +200,9 @@ footer {
   border-radius: 3px;
 }
 /* Primary styles for the carousel */
-
+#carouselExampleCaptions img {
+  height: 375px; 
+}
 /* CONTACT STYLES */
 .contact {
   background-color: rgb(211, 211, 211, 0.2);
@@ -204,19 +211,32 @@ footer {
   border: 1px solid #303034;
   border-radius: 4px;
   box-shadow: 1px 2px 2px #3030347c;
-  margin-top: 1em;
+  width: 350px;
+  margin: 2em auto;
 }
 
 .contact-form-statement {
   font-size: 1em;
-  padding-left: 0.3em;
-  margin-bottom: 0.3em;
+  padding-right: 0.3em;
 }
 
 .contact-form-statement span {
   color: #ed6e2f;
   font-size: 1.1em;
   text-shadow: 1px 1px #303034;
+}
+
+#form-submit-button {
+  background-color: #ed6e2f;
+  color: #303034;
+  border: 1px solid #303034;
+  border-radius: 0.2em;
+  box-shadow: 1px 1px 2px #3030347c;
+}
+
+#form-submit-button:hover {
+  background-color: #fefce6;
+  border: 1px solid #ed6e2f;
 }
 
 /* FOOTER STYLES */
@@ -232,7 +252,7 @@ nav .footer-nav {
   justify-content: space-evenly;
   width: 350px;
   margin: auto;
-  padding: .7em 1em;
+  padding: 0.7em 1em;
   list-style: none;
 }
 
@@ -258,5 +278,3 @@ nav .footer-nav {
   color: #fefce6;
   margin: 0;
 }
-
-
