@@ -176,36 +176,73 @@ button:hover {
 }
 
 /* PROJECT STYLES */
-#projects {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
-}
-
 .project-title {
   font-size: 2.5rem;
   color: #ed6e2f;
   background-color: rgba(48, 48, 52, 0.7);
-  grid-column: 1 / -1;
-  grid-row: 1 / 2;
   padding-left: 0.3em;
   margin-bottom: 0.3em;
   border: 1px solid opacity 0;
   border-radius: 3px;
 }
 
-#projects div img {
+/* #projects div img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+} */
+
+.project-name {
+  color: #ed6e2f;
+  background-color: rgba(48, 48, 52, 0.7);
+  padding: 0.5em;
 }
+/* Primary styles for the carousel */
+/* .carousel {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-card {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  float: left;
+  position: absolute;
+} */
+#myCarousel {
+  margin-top: 40px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  border: 1px solid #eee;
+  width: 220px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* .item {
+  border: 1px solid #eee;
+  width: 320px;
+  height: 190px;
+  margin: 0 auto;
+  padding: 10px;
+} */
+
+/* ////////////////////////// */
+/* FIX CONTACT FORM */
+/* ////////////////////////// */
 
 /* CONTACT STYLES */
 .contact {
   background-color: rgb(211, 211, 211, 0.2);
   display: grid;
-  grid-template-columns: minmax(10px, 1fr) minmax(10px, 3fr);
-  grid-template-rows: min-content min-content 1fr min-content;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 2fr;
   gap: 1px;
   box-sizing: border-box;
   text-align: start;
@@ -215,36 +252,30 @@ button:hover {
   margin-top: 1em;
 }
 
-.contact-form {
+.contact-form-text {
   font-size: 1em;
-
-  grid-column: 1 / -1;
+  grid-column: 1 / 5;
   grid-row: 1 / 2;
   padding-left: 0.3em;
   margin-bottom: 0.3em;
   text-align: justify;
 }
 
-.contact-form span {
+.contact-form-text span {
   color: #ed6e2f;
   font-size: 1.1em;
   text-shadow: 1px 1px #303034;
 }
 
-.contact .name {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
+#contact {
+  grid-column: 2 / 4;
+  grid-row: 2 / span 4;
 }
 
-.contact .email {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
-}
-
-.contact .message {
-  grid-column: 1 / -1;
+/* #contact .button {
+  grid-column: 4 / 5;
   grid-row: 4 / 5;
-}
+} */
 
 /* FOOTER STYLES */
 .footer {
