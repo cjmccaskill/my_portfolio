@@ -37,6 +37,14 @@
     /* width: 700px !important; */
   }
 
+  button {
+    height: 38px;
+  }
+  svg.bi.bi-github, svg.bi.bi-globe2 {
+    height: 25px;
+    width: 25px;
+  }
+
   /* Contact form styles */
   .contact {
     width: 700px;

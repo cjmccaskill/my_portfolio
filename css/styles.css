@@ -221,6 +221,18 @@ footer {
   height: 375px;
   /* opacity: 0.9; */
 }
+
+button  {
+  background-color: #303034;
+  border-color: #fefce1;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #fefce1;
+  border-color: #303034;
+}
+
 /* CONTACT STYLES */
 .contact {
   background-color: rgb(211, 211, 211, 0.2);
