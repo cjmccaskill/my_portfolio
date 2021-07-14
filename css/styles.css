@@ -32,7 +32,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 15vh;
+  height: fit-content;
   margin: 0;
   padding: 0;
 }
@@ -200,8 +200,6 @@ footer {
 .contact {
   background-color: rgb(211, 211, 211, 0.2);
   display: flex;
-  /* box-sizing: border-box; */
-  /* text-align: start; */
   padding: 1.3em;
   border: 1px solid #303034;
   border-radius: 4px;
@@ -224,21 +222,30 @@ footer {
 /* FOOTER STYLES */
 .footer {
   background-color: #303034;
-  padding: 2em 0;
+  padding: 1em 0;
   text-align: center;
 }
 
-.footer-nav {
-  list-style: none;
+nav .footer-nav {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-evenly;
-  padding: 0;
+  width: 350px;
+  margin: auto;
+  padding: .7em 1em;
+  list-style: none;
 }
 
 .social-links .bi:hover {
   color: #fefce6;
   background-color: #ed6e2f;
   border-radius: 10em;
+  height: 28px;
+  width: 28px;
+}
+
+.social-links .bi-twitter:hover {
+  padding: 1px;
 }
 
 .social-links .bi {
@@ -249,4 +256,7 @@ footer {
 
 .footer > p {
   color: #fefce6;
+  margin: 0;
 }
+
+

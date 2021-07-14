@@ -1,18 +1,9 @@
 @media screen and (min-width: 768px) {
   /* Nav-bar styles */
-  #nav-menu {
-    /* display: block; */
-    /* height: 100%; */
+  .nav-logo img {
+    height: 100%;
   }
 
-  /* .header-nav {
-    display: block;
-    height: 100%;
-    float: right;
-    padding: 1.3em 1em;
-    margin-top: 1.5em;
-    margin-bottom: 0;
-  }
   .header-nav > li {
     display: inline-block;
     margin-left: 1em;
@@ -21,9 +12,6 @@
     border-left: 1px solid rgba(255, 255, 255, 0.3);
     padding-left: 1em;
   }
-  .nav-button {
-    display: none;
-  } */
 
   /* Contact form styles */
   .contact {
