@@ -40,7 +40,7 @@
   button svg {
     height: 40px;
   }
-  
+
   svg.bi.bi-github,
   svg.bi.bi-globe2 {
     height: 25px;
@@ -69,6 +69,16 @@
 }
 
 @media screen and (min-width: 1024px) {
+  /* Nav list styles */
+  .nav-links {
+    font-size: 1.1em;
+  }
+
+  /* Hero styles */
+  .welcome-landing-text {
+    font-size: 2.5em;
+  }
+
   /* Project carousel styles */
   #projects {
     width: 1000px;
