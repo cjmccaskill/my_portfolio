@@ -14,10 +14,31 @@
     "image": "./img/shark.jpeg"
   },
   {
-    "name": "My Portfolio",
-    "description": "A portfolio about me and the projects that I have worked on.",
-    "github": "https://github.com/cjmccaskill/my_portfolio",
-    "deployed": "https://musing-jackson-48065a.netlify.app/",
-    "image": "./img/portfolio_logo.png"
+    "name": "Mars Website - Responsive exercise",
+    "description": "An exercise on adding and styling a responsive design for website.",
+    "github": "https://github.com/cjmccaskill/mars-responsive-website-exercise",
+    "deployed": "https://lucid-bose-b79515.netlify.app/",
+    "image": "./img/mars-landing.jpeg"
+  },
+  {
+    "name": "Dungeon Log",
+    "description": "An iOS app that I built to track your campaigns for adventure board games.",
+    "github": "https://github.com/cjmccaskill/CampaignTracker",
+    "deployed": "https://apps.apple.com/us/app/dungeon-log/id1551745617",
+    "image": "./img/dungeon_log.png"
+  },
+  {
+    "name": "jQuery Project",
+    "description": "This project was about working with jQuery and manipulating the DOM.",
+    "github": "https://github.com/cjmccaskill/jQuery_project",
+    "deployed": "https://frosty-noether-481b39.netlify.app/",
+    "image": "./img/lotr.jpeg"
+  },
+  {
+    "name": "To Be Continued...",
+    "description": "The cycle of learning and growing mentally and physically is never over.",
+    "github": "https://github.com/cjmccaskill",
+    "deployed": "#",
+    "image": "./img/open_space_office.jpeg"
   }
 ]
