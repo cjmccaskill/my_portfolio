@@ -181,7 +181,7 @@ footer {
 
 .about .sub-title {
   grid-column: about / about;
-  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
 .about-info {
