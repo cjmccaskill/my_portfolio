@@ -14,12 +14,9 @@ $(document).ready(function () {
   $(".header-nav li a").click(function (e) {
     var targetHref = $(this).attr("href");
 
-    $("html, body").animate(
-      {
-        scrollTop: $(targetHref).offset().top - headerHeight, // Add it to the calculation here
-      },
-      1000
-    );
+    $("html, body").animate({
+      scrollTop: $(targetHref).offset().top - headerHeight, // Add it to the calculation here
+    });
     e.preventDefault();
   });
 });
