@@ -222,10 +222,15 @@ footer {
   /* opacity: 0.9; */
 }
 
-button  {
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: transparent;
+}
+
+button {
   background-color: #303034;
   border-color: #fefce1;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 button:hover {
