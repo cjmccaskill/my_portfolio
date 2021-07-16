@@ -3,7 +3,7 @@
     "name": "My Portfolio",
     "description": "I built a website to showcase the projects that I have worked on and give you a little peek at who I am.",
     "github": "https://github.com/cjmccaskill/my_portfolio",
-    "deployed": "https://cjmccaskill.netlify.app/",
+    "deployed": "https://cjmccaskill.vercel.app/",
     "image": "./img/portfolio_logo.png"
   },
   {
