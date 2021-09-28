@@ -11,7 +11,7 @@
     "description": "This app was built using React for the front end and Express for the backend. As a group we were assigned a design pattern and layout of the case study to follow for our build. We did make a few changes to the app based on the requirements given to us by our instructors, but otherwise we crushed the assignment.",
     "github": "https://github.com/cjmccaskill/travel-project",
     "deployed": "https://travel-project-roan.vercel.app",
-    "image": "./img/travel-app.png"
+    "image": "./img/travel-agency-app.png"
   },
   {
     "name": "My Journeys - blog",
