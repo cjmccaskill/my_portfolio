@@ -1,10 +1,24 @@
 [
   {
-    "name": "My Portfolio",
-    "description": "I built a website to showcase the projects that I have worked on and give you a little peek at who I am.",
-    "github": "https://github.com/cjmccaskill/my_portfolio",
-    "deployed": "https://cjmccaskill.vercel.app/",
-    "image": "./img/portfolio_logo.png"
+    "name": "Exotic Auto Collection",
+    "description": "E-commerce style site for user search and look for rare, hard to find exotic vehicles. If they find something they like, they can then apply for financing or outright purchase the vehicle.",
+    "github": "https://github.com/cjmccaskill/exotic-auto-collection-frontend",
+    "deployed": "https://exotic-auto-collection.vercel.app/",
+    "image": "./img/homepage_eac.png"
+  },
+  {
+    "name": "Travel Mobile App",
+    "description": "This app was built using React for the front end and Express for the backend. As a group we were assigned a design pattern and layout of the case study to follow for our build. We did make a few changes to the app based on the requirements given to us by our instructors, but otherwise we crushed the assignment.",
+    "github": "https://github.com/cjmccaskill/travel-project",
+    "deployed": "https://travel-project-roan.vercel.app",
+    "image": "./img/travel-app.png"
+  },
+  {
+    "name": "My Jounreys - blog",
+    "description": "My Journeys allow a user to read and follow along on and learn about my journey into the world of software development. ",
+    "github": "https://github.com/cjmccaskill/My-Journeys",
+    "deployed": "https://travel-project-roan.vercel.app",
+    "image": "./img/homepage_for_blog.png"
   },
   {
     "name": "Code Dangerously",
