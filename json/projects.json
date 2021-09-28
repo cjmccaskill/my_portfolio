@@ -14,7 +14,7 @@
     "image": "./img/travel-app.png"
   },
   {
-    "name": "My Jounreys - blog",
+    "name": "My Journeys - blog",
     "description": "My Journeys allow a user to read and follow along on and learn about my journey into the world of software development. ",
     "github": "https://github.com/cjmccaskill/My-Journeys",
     "deployed": "https://travel-project-roan.vercel.app",
